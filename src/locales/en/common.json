@@ -1,0 +1,183 @@
+{
+  "auth": {
+    "reg": {
+      "h3": "Create an account",
+      "h4": "Enter your email and password to sign up for this app",
+      "button": "Sign Up",
+      "transferH4": "Already have an account? ",
+      "link": "Sign in",
+      "email": "Email",
+      "password": "Password",
+      "terms": "By clicking continue, you agree to our <0>Terms of Service</0> and <1>Privacy Policy</1>",
+      "termsLinks": {
+        "terms": "Terms of Service",
+        "privacy": "Privacy Policy"
+      }
+    },
+    "login": {
+      "h3": "Sign in into an account",
+      "h4": "Enter your email and password to sign in for this app",
+      "button": "Sign In",
+      "transferH4": "Forgot to create an account? ",
+      "link": "Sign up",
+      "email": "Email",
+      "password": "Password"
+    }
+  },
+  "barChart": {
+    "title": "Monthly data"
+  },
+  "months": {
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mar",
+    "apr": "Apr",
+    "may": "May",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "oct": "Oct",
+    "nov": "Nov",
+    "dec": "Dec"
+  },
+  "commentsSection": {
+    "likes": "likes",
+    "likePost": "Like this post",
+    "unlikePost": "Unlike this post",
+    "showComments": "Show comments",
+    "hideComments": "Hide comments",
+    "loginToSeeComments": "You have to login to see the comments",
+    "comments": "comments",
+    "postActions": "Post actions",
+    "addComment": "Add a comment",
+    "writeCommentHere": "Write your comment here",
+    "commentsList": "List of comments",
+    "deleteComment": "Delete comment"
+  },
+  "createPost": {
+    "whatsHappening": "What’s happening?",
+    "tellEveryone": "Tell everyone",
+    "ariaLabel": "Create post section"
+  },
+  "required": "Required",
+  "loading": "Loading...",
+  "createPostForm": {
+    "createNewPost": "Create a new post",
+    "close": "Close",
+    "labels": {
+      "title": "Post title",
+      "description": "Description"
+    },
+    "placeholders": {
+      "title": "Enter post title",
+      "description": "Write description here..."
+    },
+    "createButton": "Create",
+    "errors": {
+      "invalidFileType": "Only JPG, PNG, or PDF files are allowed",
+      "fileTooLarge": "File size should not exceed 10MB"
+    }
+  },
+  "fileUpload": {
+    "selectOrDrag": "Select a file or drag and drop here",
+    "fileRequirements": "JPG, PNG or PDF, file size no more than 10MB",
+    "fileUploadButtonLabel": "Upload a file. Click or press Enter or Space."
+  },
+  "header": {
+    "signUp": "Sign Up",
+    "signIn": "Sign In",
+    "profile": "Profile Page"
+  },
+  "chart": {
+    "title": "Chart Title"
+  },
+  "profile": {
+    "editProfile": "Edit profile",
+    "changePhoto": "Change profile photo",
+    "userName": "User name",
+    "email": "Email",
+    "description": "Description",
+    "descriptionPlaceholder": "Write your description here",
+    "maxChars": "Max 200 chars",
+    "saveChanges": "Save Profile Changes",
+    "preferences": "Preferences",
+    "lightTheme": "Light theme",
+    "darkTheme": "Dark theme",
+    "actions": "Actions",
+    "logout": "Logout",
+    "noChanges": "No changes detected",
+    "updateSuccess": "Profile info has been updated successfully",
+    "updateError": "Failed to update profile",
+    "themeChangeError": "Failed to change the theme",
+    "navigation": "Profile page switch"
+  },
+  "profileToggle": {
+    "profileInfo": "Profile Info",
+    "statistics": "Statistics",
+    "navigation": "Navigation"
+  },
+  "sidebar": {
+    "suggestedPeople": "Suggested people",
+    "communitiesYouMightLike": "Communities you might like",
+    "errorLoadingData": "Failed to load data"
+  },
+  "stat": {
+    "title1": "Title1",
+    "title2": "Title2",
+    "title3": "Title3",
+    "monthOverMonth": "month over month",
+    "tableView": "Table view",
+    "chartView": "Chart view",
+    "likes": "Likes",
+    "comments": "Comments"
+  },
+  "table": {
+    "col1": "Col 1",
+    "col2": "Col 2",
+    "col3": "Col 3",
+    "row1": "Row 1",
+    "row2": "Row 2",
+    "row3": "Row 3",
+    "row4": "Row 4",
+    "row5": "Row 5",
+    "row6": "Row 6",
+    "row7": "Row 7",
+    "tableTitle": "Title"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "oops": "Oops...<br/>Something bad has just happened",
+    "failedToUpdateProfile": "Failed to update profile",
+    "failedToDeleteComment": "Failed to delete comment",
+    "failedToCreateComment": "Failed to create a comment",
+    "failedToUpdatePost": "Failed to update post",
+    "failedToFetchUserData": "Failed to fetch user data",
+    "invalidToken": "Invalid token: missing user ID",
+    "failedToCreatePost": "Failed to create post"
+  },
+  "timeAgo": {
+    "year": "{{timeAgo}} year ago",
+    "month": "{{timeAgo}} month ago",
+    "week": "{{timeAgo}} week ago",
+    "day": "{{timeAgo}} day ago",
+    "hour": "{{timeAgo}} hour ago",
+    "minute": "{{timeAgo}} minute ago",
+    "justNow": "Just now"
+  },
+  "switchLanguage": "Switch language",
+  "toggleMenu": "Toggle menu",
+  "postImgAlt": "Post image",
+  "comment": "Comments",
+  "closeNot": "Close notification",
+  "validationErrors": {
+    "required": "Required",
+    "invalidEmail": "Invalid email address",
+    "passwordTooShort": "Password must be at least 6 characters",
+    "maxLength200": "Max 200 chars",
+    "requiredFile": "File is required",
+    "invalidFileType": "Invalid file type",
+    "fileTooLarge": "File size exceeds 10MB"
+  },
+  "noPosts": "No posts yet"
+}

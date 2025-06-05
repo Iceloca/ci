@@ -1,0 +1,41 @@
+.hamburger-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 12px;
+  width: 18px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  padding: 0;
+}
+
+.hamburger-button:focus-visible {
+  outline: 2px solid #888;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.hamburger-button span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 1px;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.dark-background {
+  background-color: #000;
+}
+
+.light-background {
+  background-color: #fff;
+}
+
+.hamburger-button:hover span,
+.hamburger-button:focus span {
+  transform: scaleX(1.05);
+}

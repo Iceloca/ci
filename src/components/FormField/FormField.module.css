@@ -1,0 +1,17 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formFieldLabel {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.formFieldLabel span {
+  font-size: 14px;
+  font-weight: 500;
+}

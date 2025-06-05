@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  social-media:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: social-media
+    ports:
+      - "3000:3000"
+

@@ -1,0 +1,15 @@
+.mainContainer {
+  padding: 24px;
+  position: relative;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .mainContainer {
+    padding: 10px 0 0;
+  }
+}
+
+.blurred {
+  filter: blur(20px);
+}

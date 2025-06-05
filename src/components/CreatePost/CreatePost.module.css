@@ -1,0 +1,44 @@
+.createPostContainer {
+  height: 88px;
+  padding: 12px;
+  width: 700px;
+  margin: auto;
+  box-sizing: border-box;
+  margin-bottom: 26px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.inputSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.inputSection h4 {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  cursor: default;
+}
+
+.createPostContainer .orange-button {
+  width: 188px;
+  height: 44px;
+}
+
+@media (max-width: 768px) {
+  .createPostContainer {
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    margin-bottom: 0;
+    height: 60px;
+  }
+  .createPostContainer .orange-button {
+    width: 140px;
+    height: 36px;
+  }
+}

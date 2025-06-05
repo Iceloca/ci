@@ -1,0 +1,22 @@
+.user-account-container {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  line-height: 150%;
+  font-size: 16px;
+  cursor: default;
+}
+
+.username {
+  font-weight: 500;
+}
+
+.extra-text {
+  color: #8791b7;
+  font-weight: 400;
+}

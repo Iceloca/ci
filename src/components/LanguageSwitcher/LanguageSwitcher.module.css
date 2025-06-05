@@ -1,0 +1,40 @@
+.languageSwitcher {
+  padding: 8px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.08);
+  font-size: 14px;
+  font-weight: 500;
+  backdrop-filter: blur(6px);
+  box-sizing: border-box;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease,
+    color 0.3s ease;
+  color: #ffffff;
+}
+
+.languageSwitcher:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+  transform: scale(1.05);
+}
+
+.languageSwitcher.light {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #222222;
+}
+
+.languageSwitcher.light:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .languageSwitcher {
+    padding: 2px 4px;
+    font-size: 10px;
+    height: 18px;
+    border-radius: 14px;
+  }
+}
